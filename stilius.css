@@ -1,9 +1,15 @@
 img {
     width:0px;
 }
+.i{
+	display:flex;
+}
 .game {
+	
+	left:30%;
+	top:30%;
     background-color:azure;
-    position:fixed;
+    position:absolute;
     padding:50px;}
 
 .field {
@@ -15,15 +21,18 @@ img {
     font-size: 0%;
 }
 .o {
+	flex:1;
     text-align: center;
-    float:right;
+    
     width:150px;
     height: 300px;
 
 }
+
 .x {
+	flex:1;
     text-align: center;
-    float:left;
+    
     width:150px;
     height: 300px;
 }
@@ -43,20 +52,14 @@ p{
 @media only screen and (max-width: 768px) {
 
     .game{
+		width:100%;
         left:0;
         top:0;
         padding: 20px;
     }
-
-    .x{
-        width:20%;
-    }
-    .o{
-        width:20%;
-    }
     .field{
 
-        width:60px;
-        height: 60px;
+        width:70px;
+        height: 70px;
     }
 }

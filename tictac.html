@@ -4,25 +4,22 @@
     <link rel="stylesheet" type="text/css" href="stilius.css">
     <title>tictactoe</title>
     <meta charset = "UTF-8">
-    <script src="skriptas.js"></script>
+    <script src="skriptas.js">
+	</script>
 </head>
-<body>
+<body onload="start()">
 
     <div class="game">
         <div class="above">
             <p><b id="xscore">0</b>:<b id="oscore">0</b></p>
             <button onclick="zaid()">Naujas žaidimas</button>
         </div>
+		<div class="i">
         <div class="x">
             <textarea id="nx">Player1</textarea>
             <img id="x" src='tenor.gif'>
         </div>
-        <div class="o">
-            <textarea id="no">Player2</textarea>
-            <img id="o" src="ConcernedShrillKatydid-max-1mb.gif">
-        </div>
-<div class="tab">
-
+		
     <table>
         <tr>
             <th><div class="field" id="1" onclick="change(this)">c</div></th>
@@ -40,8 +37,15 @@
             <th><div class="field" id="9" onclick="change(this)">c</div></th>
         </tr>
     </table>
-</div>
 
+		
+        <div class="o">
+            <textarea id="no">Player2</textarea>
+            <img id="o" src="ConcernedShrillKatydid-max-1mb.gif">
+        </div>
+
+
+</div>
 
     </div>
 

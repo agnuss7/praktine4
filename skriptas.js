@@ -24,10 +24,13 @@ function change (a)
         }
         check();
     }
-
 }
 
-
+function start(){
+	    z=true;
+    win=null;
+    document.getElementById('nx').style.backgroundColor="Salmon";
+}
 
 
 function zaid() {
