@@ -1,0 +1,62 @@
+img {
+    width:0px;
+}
+.game {
+    background-color:azure;
+    position:fixed;
+    padding:50px;}
+
+.field {
+    width:100px;
+    height:100px;
+    display: grid;
+    background-color:salmon;
+    background-size: cover;
+    font-size: 0%;
+}
+.o {
+    text-align: center;
+    float:right;
+    width:150px;
+    height: 300px;
+
+}
+.x {
+    text-align: center;
+    float:left;
+    width:150px;
+    height: 300px;
+}
+.above{
+    text-align: center;
+    float:top;
+}
+
+textarea{
+    width:98%;
+}
+p{
+    font-size: 150%;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .game{
+        left:0;
+        top:0;
+        padding: 20px;
+    }
+
+    .x{
+        width:20%;
+    }
+    .o{
+        width:20%;
+    }
+    .field{
+
+        width:60px;
+        height: 60px;
+    }
+}
